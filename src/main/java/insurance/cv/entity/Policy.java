@@ -1,5 +1,7 @@
 package insurance.cv.entity;
 
+import java.time.LocalDate;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -15,4 +17,5 @@ public class Policy {
 @Column(name = "Policy_id")
 private int id;
 private String policyName;
+private LocalDate startDate;
 }
