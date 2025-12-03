@@ -14,4 +14,5 @@ public class Policy {
 @GeneratedValue(strategy = GenerationType.AUTO)
 @Column(name = "Policy_id")
 private int id;
+private String policyName;
 }
