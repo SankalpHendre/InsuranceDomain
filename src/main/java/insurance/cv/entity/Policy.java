@@ -16,6 +16,8 @@ public class Policy {
 @GeneratedValue(strategy = GenerationType.AUTO)
 @Column(name = "Policy_id")
 private int id;
+@Column(name="policy_name")
 private String policyName;
+@Column(name="start_date")
 private LocalDate startDate;
 }
